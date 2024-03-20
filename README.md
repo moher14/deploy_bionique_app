@@ -31,3 +31,11 @@ gcloud container clusters list
 gcloud container clusters get-credentials bionic-gpt-cluster --zone us-central1-c
 ```
 
+# Check Current Kubernetes Cluster
+
+To check which Kubernetes cluster you are currently working with, you can use the following `kubectl` command:
+
+```bash
+kubectl config current-context
+```
+
