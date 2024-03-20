@@ -38,4 +38,14 @@ To check which Kubernetes cluster you are currently working with, you can use th
 ```bash
 kubectl config current-context
 ```
+# download k9s 
+```bash
+curl -L -s https://github.com/derailed/k9s/releases/download/v0.24.15/k9s_Linux_x86_64.tar.gz | tar xvz -C /tmp && sudo mv /tmp/k9s /usr/bin && rm -rf k9s_Linux_x86_64.tar.gz
+
+```
+# check running cluster
+```bash
+k9s
+```
+
 
