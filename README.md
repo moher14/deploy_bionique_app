@@ -26,7 +26,7 @@ gcloud container clusters list
 ```
 
 
-# Check Cluster Status
+# Export the kubeconfig for the GKE cluster you created
 ```bash
 gcloud container clusters get-credentials bionic-gpt-cluster --zone us-central1-c
 ```
