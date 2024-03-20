@@ -59,4 +59,7 @@ k9s
 
 ![Example Image](https://github.com/moher14/deploy_bionique_app/blob/main/image.png)
 
+# In kubernetes/workload/overview the result shoud like :
+
+![Example Image](https://github.com/moher14/deploy_bionique_app/blob/main/image1.png)
 
