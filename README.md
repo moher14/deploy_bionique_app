@@ -1,5 +1,5 @@
 # deploy_bionique_app
-# Deploy Bionique-app on Google Cloud
+# Deploy Bionique-app on Google Cloud kubernetess
 
 To deploy the Bionique-app on Google Cloud, follow these steps:
 
