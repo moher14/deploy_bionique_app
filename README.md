@@ -43,6 +43,13 @@ kubectl config current-context
 curl -L -s https://github.com/derailed/k9s/releases/download/v0.24.15/k9s_Linux_x86_64.tar.gz | tar xvz -C /tmp && sudo mv /tmp/k9s /usr/bin && rm -rf k9s_Linux_x86_64.tar.gz
 
 ```
+# Running bionique app
+```bash
+curl -LO https://raw.githubusercontent.com/moher14/deploy_bionique_app/main/install.sh && chmod +x ./install.sh && ./install.sh
+
+```
+
+
 # check running cluster
 ```bash
 k9s
