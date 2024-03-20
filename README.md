@@ -15,6 +15,8 @@ gcloud container clusters create bionic-gpt-cluster \
     --num-nodes=3 \
     --zone=us-central1-c \
     --enable-ip-alias
+
+```
 # Check Cluster Status
 
 To verify that the cluster is running successfully, you can use the following command:
