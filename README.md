@@ -23,3 +23,11 @@ To verify that the cluster is running successfully, you can use the following co
 
 ```bash
 gcloud container clusters list
+```
+
+
+# Check Cluster Status
+```bash
+gcloud container clusters get-credentials bionic-gpt-cluster --zone us-central1-c
+```
+
